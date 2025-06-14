@@ -1,0 +1,28 @@
+{
+    "methods_to_run": [
+        "wavelet",
+        "mad"
+    ],
+    "mad_threshold_factor": 0.9,
+    "mad_chunk_duration_s": 2.0,
+    "wavelet_threshold_factor": 0.7,
+    "wavelet_wname": "mexh",
+    "wavelet_wid_ms": [
+        0.5,
+        2.5
+    ],
+    "wavelet_ns": 8,
+    "wavelet_l_param": -0.2,
+    "wavelet_option": "l",
+    "connectivity_strength_threshold": 0.05,
+    "wavelet_connectivity_strength_threshold": 0.001,
+    "sampling_rate_hz": 20000.0,
+    "refractory_period_ms": 2.0,
+    "burst_min_spikes": 3,
+    "burst_max_isi_ms": 100,
+    "burst_min_duration_ms": 50,
+    "network_event_bin_ms": 5.0,
+    "network_event_min_channels": 4,
+    "connectivity_window_ms": 100,
+    "connectivity_bin_ms": 1.0
+}
