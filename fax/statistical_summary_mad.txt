@@ -1,0 +1,37 @@
+================================================================================
+ STATISTICAL COMPARISON FOR 'MAD' METHOD
+================================================================================
+
+--- Comparing Channel-wise Metrics (Mann-Whitney U Test with FDR Correction) ---
+                       Control Mean (±SD)  Active Mean (±SD) P-value (raw) P-value (Adjusted) Significance
+Metric                                                                                                    
+Num Spikes              928.617 ± 256.530  435.300 ± 143.903     1.281e-18          1.025e-17          ***
+Spike Freq (Hz)             0.774 ± 0.214      0.558 ± 0.185     1.466e-13          5.862e-13          ***
+Mean Amp (µV)               3.594 ± 5.527      0.012 ± 5.932     9.507e-04             0.0015           **
+Median Amp (µV)            8.790 ± 12.515    -0.147 ± 15.750        0.0025             0.0034           **
+CV of ISI                   1.041 ± 0.055      1.022 ± 0.056        0.0181             0.0207            *
+Num Bursts                  6.150 ± 6.701      1.467 ± 2.021     4.384e-11          1.169e-10          ***
+Avg Spikes/Burst            3.843 ± 2.725      4.177 ± 2.876        0.3461             0.3461           ns
+% Spikes in Bursts          2.295 ± 2.967      1.173 ± 1.448     2.253e-04          4.506e-04          ***
+Degree Centrality               nan ± nan          nan ± nan           N/A                N/A             
+Betweenness Centrality          nan ± nan          nan ± nan           N/A                N/A             
+Clustering Coeff                nan ± nan          nan ± nan           N/A                N/A             
+Eigenvector Centrality          nan ± nan          nan ± nan           N/A                N/A             
+z_score                         nan ± nan          nan ± nan           N/A                N/A             
+P_coeff                         nan ± nan          nan ± nan           N/A                N/A             
+
+
+
+--- Comparing Global Network Properties ---
+                      Control  Active
+Global Metric                        
+count                   569.0   242.0
+density                   NaN     NaN
+avg_clustering_coeff      NaN     NaN
+modularity                NaN     NaN
+
+
+
+================================================================================
+Significance based on FDR-adjusted p-values: ns = p >= 0.05 | * = p < 0.05 | ** = p < 0.01 | *** = p < 0.001
+================================================================================
