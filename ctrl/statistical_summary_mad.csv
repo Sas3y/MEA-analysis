@@ -1,0 +1,15 @@
+Metric,Control Mean (±SD),Active Mean (±SD),P-value (raw),P-value (Adjusted),Significance
+Num Spikes,886.150 ± 189.247,463.217 ± 102.549,1.750e-19,1.400e-18,***
+Spike Freq (Hz),0.738 ± 0.158,0.772 ± 0.171,0.1549,0.2473,ns
+Mean Amp (µV),2.288 ± 5.855,2.488 ± 5.946,0.8337,0.8337,ns
+Median Amp (µV),5.881 ± 16.384,6.010 ± 14.268,0.2722,0.3110,ns
+CV of ISI,1.027 ± 0.039,1.020 ± 0.051,0.1855,0.2473,ns
+Num Bursts,5.817 ± 4.213,2.533 ± 2.340,1.426e-08,3.803e-08,***
+Avg Spikes/Burst,3.741 ± 0.789,3.192 ± 0.859,1.207e-09,4.828e-09,***
+% Spikes in Bursts,2.298 ± 1.215,1.602 ± 1.209,0.0024,0.0048,**
+Degree Centrality,nan ± nan,nan ± nan,N/A,N/A,
+Betweenness Centrality,nan ± nan,nan ± nan,N/A,N/A,
+Clustering Coeff,nan ± nan,nan ± nan,N/A,N/A,
+Eigenvector Centrality,nan ± nan,nan ± nan,N/A,N/A,
+z_score,nan ± nan,nan ± nan,N/A,N/A,
+P_coeff,nan ± nan,nan ± nan,N/A,N/A,
