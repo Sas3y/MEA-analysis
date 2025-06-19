@@ -1,0 +1,37 @@
+================================================================================
+ STATISTICAL COMPARISON FOR 'WAVELET' METHOD
+================================================================================
+
+--- Comparing Channel-wise Metrics (Mann-Whitney U Test with FDR Correction) ---
+                       Control Mean (±SD)  Active Mean (±SD) P-value (raw) P-value (Adjusted) Significance
+Metric                                                                                                    
+Num Spikes              549.667 ± 362.342  356.633 ± 121.093     1.326e-11          6.187e-11          ***
+Spike Freq (Hz)             0.366 ± 0.242      0.440 ± 0.150     2.211e-10          7.740e-10          ***
+Mean Amp (µV)              -0.792 ± 1.652     -0.426 ± 1.607        0.2218             0.3881           ns
+Median Amp (µV)            -3.287 ± 2.051     -2.323 ± 1.837        0.0072             0.0167            *
+CV of ISI                   1.012 ± 0.071      1.009 ± 0.067        0.8548             0.8897           ns
+Num Bursts                 3.333 ± 21.257      0.767 ± 1.640        0.4730             0.7357           ns
+Avg Spikes/Burst            3.174 ± 0.661      3.074 ± 0.225        0.8897             0.8897           ns
+% Spikes in Bursts          0.779 ± 3.950      0.508 ± 0.813        0.2155             0.3881           ns
+Degree Centrality           1.889 ± 0.254      1.836 ± 0.251     1.471e-05          4.118e-05          ***
+Betweenness Centrality      0.004 ± 0.010      0.004 ± 0.010        0.6684             0.8897           ns
+Clustering Coeff            0.268 ± 0.036      0.305 ± 0.041     9.380e-20          6.566e-19          ***
+Eigenvector Centrality      0.128 ± 0.019      0.128 ± 0.019        0.8749             0.8897           ns
+z_score                     0.000 ± 1.000     -0.000 ± 1.000        0.8584             0.8897           ns
+P_coeff                     0.805 ± 0.106      0.648 ± 0.085     6.684e-20          6.566e-19          ***
+
+
+
+--- Comparing Global Network Properties ---
+                       Control    Active
+Global Metric                           
+count                 377.0000  295.0000
+density                 0.9605    0.9334
+avg_clustering_coeff    0.2728    0.3098
+modularity              0.0284    0.0272
+
+
+
+================================================================================
+Significance based on FDR-adjusted p-values: ns = p >= 0.05 | * = p < 0.05 | ** = p < 0.01 | *** = p < 0.001
+================================================================================
